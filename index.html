@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calcula media</title>
+</head>
+<body>
+
+    <header>
+        <h1 style="text-align: center;" id="titulo_p">CALCULAR MEDÍA</h1>
+    </header>
+    <section id="seção-1">
+        <div>
+            <!--border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;box-shadow: 1px 1px 2px;-->
+            <label id="lbl_1">quantidade de alunos</label>
+            <input type="number" id="tb_quantidadeDeAlunos" min="1" max="10">
+            <input type="button" id="btn_quantidadeDeAlunos" value="PRONTO" onclick="btn_quantidadeDeAlunos()">
+        </div>
+        <div id="notaDosAlunos">
+            <label>aguardando quantidade ...</label>
+        </div>
+        <div id="resultado">
+            
+        </div>
+    </section>
+    <footer>
+        <p style="text-align: center;">&copy;AfoxPolo</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
