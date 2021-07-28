@@ -85,11 +85,11 @@ function btn_calcular() {
     let resultado = somados / qda
     
     if (qda != 1) {
-        divResultado.innerHTML += `a media dos ${qda} alunos é ${resultado}`
+        divResultado.innerHTML = `a media dos ${qda} alunos é ${resultado}`
         divResultado.style.padding = '10px'
     }
     else {
-        divResultado.innerHTML += `a media do alunos é ${resultado}`
+        divResultado.innerHTML = `a media do alunos é ${resultado}`
         divResultado.style.padding = '5px'
     }    
 }
